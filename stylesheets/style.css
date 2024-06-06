@@ -1,0 +1,677 @@
+:root {
+    --js: #161617;
+    --blue: #06c;
+    --black: #1f1f20;
+    --dark-gray: #434242;
+    --white: #fff;
+    --gray: #79797D;
+    --light-gray: #DEDEDF;
+    --super-black: #000000;
+    --white-cool: #f5f5f7;
+    --blue2: #2587e4;
+    --divs: #fbfbfd;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+body {
+    background: var(--white);
+    overflow-x: hidden;
+}
+
+.container {
+    background: #F5F5F7;
+}
+
+.white {
+    background: #EDEDEF;
+    color: black;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+nav {
+    background: var(--dark-gray);
+    height: 3.8vh;
+    display: flex;
+    align-items: center;
+    padding-left: 410px;
+    gap: 55px;
+    font-size: 11px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 45px;
+}
+
+
+a {
+    color: var(--light-gray);
+    font-weight: thin;
+    
+}
+
+i {
+    font-size: 15px;
+}
+
+i.fa-apple {
+    font-size: 18px;
+}
+
+/* main */
+
+/* box1 */
+
+.box1 h2 ,
+.box1 span ,
+.box1 a ,
+.box2 h2 ,
+.box2 span ,
+.box2 a ,
+.box3 h2 , 
+.box3 span ,
+.box3 a ,
+.box3 .watch{
+    position: absolute;
+    left: 800px;
+}
+
+.box1 h2 {
+    font-size: 50px;
+    bottom: 840px;
+    font-weight: 600;
+    margin-left: -20px;
+    letter-spacing: -0.9px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+    color: var(--black);
+
+}
+
+.box1 span {
+    font-size: 25px;
+    bottom: 807px;
+    letter-spacing: -0.9px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+    margin-left: -130px;
+}
+
+.container .box1  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 img {
+    width: 1800px;
+    margin-top: 280px;
+}
+
+.box1 a {
+    font-size: 19px;
+    bottom: 47.8rem;
+    margin-left: 32px;
+    color: var(--blue);
+    letter-spacing: -0.8px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+/* box2 */
+
+.container .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--super-black);
+    margin-top: 13px;
+}
+
+.box2 img {
+    width: 1800px;
+    margin-top: 225px;
+    flex-wrap: wrap;
+}
+
+.box2 h2 {
+    font-size: 50px;
+    bottom: 190px;
+    font-weight: 600;
+    margin-left: -70px;
+    letter-spacing: -0.9px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+    color: var(--white-cool);
+}
+
+.box2 span {
+    color: var(--white-cool);
+    font-size: 25px;
+    bottom: 158px;
+    letter-spacing: -0.9px;
+    transform: scaleY(1.2); 
+    transform-origin: bottom;
+    margin-left: -100px;
+    letter-spacing: -0.9px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+.box2 a {
+    font-size: 19px;
+    bottom: 7.2rem;
+    margin-left: 40px;
+    color: var(--blue2);
+    letter-spacing: -0.7px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+/* box 3 */
+
+
+.container .box3 {
+    background: var(--super-black);
+    margin-top: 13px;
+    position: relative;
+    
+}
+
+.box3 h2 {
+    font-size: 40px;    
+    font-weight: 600;
+    margin-left: 3rem;
+    top: 70px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+    color: var(--white-cool);
+}
+
+.box3 span {
+    color: var(--white-cool);
+    font-size: 24px;
+    bottom: 510px;
+    letter-spacing: -0.9px;
+    transform: scaleY(1); 
+    transform-origin: bottom;
+    margin-left: -50px;
+    letter-spacing: -0.9px;
+    transform: scaleY(1.2); 
+    transform-origin: bottom;
+}
+
+.box3 img.iphone {
+    width: 1800px;
+    height: 440px;
+    margin-top: 250px;
+    margin-left: 0px;
+}
+
+.box3 img.watch {
+    width: 195px;
+    height: 75px;
+    top: 65px;
+    left: 800px;
+}
+
+.box3 a {
+    font-size: 19px;
+    bottom: 29.2rem;
+    margin-left: 40px;
+    color: var(--blue2);
+    letter-spacing: -0.8px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+
+/* container2 */
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: var(--white);
+    margin-top: 13px;
+    position: relative;
+    gap: .5rem;
+}
+
+
+.container2 div {
+    width: 900px;
+    height: 570px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 35px;
+}
+
+.container2 .div1 ,
+.container2 .div3 {
+    background: var(--super-black);
+}
+
+.container2 .div2 , .div4, .div5 , .div6 {
+    background: var(--divs);
+}
+
+.div1 img {
+    width: 100%;
+    height: 74%;
+    margin-top: 148px;
+    position: relative;
+}
+
+.div1 h2 {
+    position: absolute;
+    color: var(--white-cool);
+    font-size: 35px;    
+    font-weight: 600;
+    left: 23rem;
+    top: 50px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div1 span {
+    position: absolute;
+    top: 96px;
+    left: 21rem;
+    color: var(--white-cool);
+    font-size: 17px;
+    letter-spacing: -0.7px;
+    transform: scaleY(1); 
+    font-weight: 500;
+    transform-origin: bottom;
+    letter-spacing: 1px;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div1 a {
+    font-size: 16px;
+    position: absolute;
+    top: 130px;
+    left: 26.6rem;
+    color: var(--blue);
+    letter-spacing: -0.8px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+.div2 ,
+.div4 ,
+.div6 {
+    left: 30px;
+}
+
+/* div2 */
+
+.div2 img.logo {
+    width: 135px;
+    position: absolute;
+    top: 60px;
+    left: 24rem;
+}
+
+.div2 span {
+    position: absolute;
+    top: 120px;
+    left: 23rem;
+    color: var(--dark-gray);
+    font-size: 17px;
+    letter-spacing: -0.9px;
+    transform: scaleY(1); 
+    font-weight: 500;
+    transform-origin: bottom;
+    letter-spacing: 1px;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div2 a {
+    font-size: 16px;
+    position: absolute;
+    top: 155px;
+    left: 26rem;
+    color: var(--blue);
+    letter-spacing: -0.8px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+.div2 .image {
+    width: 100%;
+    margin-top: 180px;
+}
+
+.div3 h2 {
+    position: absolute;
+    color: var(--white-cool);
+    font-size: 35px;    
+    font-weight: 600;
+    left: 23.5rem;
+    top: 60px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    transform: scaleY(1.18); 
+    transform-origin: bottom;
+}
+
+.div3 span {
+    position: absolute;
+    top: 96px;
+    left: 22rem;
+    color: var(--white-cool);
+    font-size: 17px;
+    letter-spacing: -0.7px;
+    transform: scaleY(1); 
+    font-weight: 500;
+    transform-origin: bottom;
+    letter-spacing: -0.7px;
+    transform: scaleY(1.2); 
+    transform-origin: bottom;
+}
+
+.div3 span img {
+    position: relative;
+    width: 35px;
+    height: 30px;
+    top: 10px;
+    left: .2rem;
+}
+
+.div3 a {
+    font-size: 16px;
+    position: absolute;
+    top: 145px;
+    left: 24.5rem;
+    color: var(--blue);
+    letter-spacing: -0.8px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+.div3 img.foto {
+    width: 100%;
+    position: relative;
+    margin-top: 180px;
+    height: 50%;
+}
+
+.div4 h2 {
+    position: absolute;
+    color: var(--black);
+    font-size: 35px;    
+    font-weight: 600;
+    left: 22rem;
+    bottom: 105px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div4 span {
+    position: absolute;
+    bottom: 80px;
+    left: 19rem;
+    color: var(--black);
+    font-size: 19px;
+    transform: scaleY(1); 
+    font-weight: 500;
+    transform-origin: bottom;
+    letter-spacing: -0.7px;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div4 a {
+    font-size: 14px;
+    position: absolute;
+    bottom: 50px;
+    left: 23.5rem;
+    color: var(--blue2);
+    letter-spacing: -0.9px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+
+.div4 img {
+    width: 100%;
+    height: 74%;
+    position: relative;
+}
+
+.div5 h2 {
+    position: absolute;
+    color: var(--black);
+    font-size: 35px;    
+    font-weight: 600;
+    left: 22rem;
+    top: 4rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div5 span {
+    position: absolute;
+    top: 7.5rem;
+    left: 17rem;
+    color: var(--dark-gray);
+    font-size: 19px;
+    transform: scaleY(1); 
+    font-weight: 500;
+    transform-origin: bottom;
+    letter-spacing: -0.7px;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div5 a {
+    font-size: 16px;
+    position: absolute;
+    top: 10rem;
+    left: 24rem;
+    color: var(--blue2);
+    letter-spacing: -0.9px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+.div5 img {
+    position: relative;
+    top: 180px;
+    width: 100%;
+    height: 51%;
+    margin-top: 155px;
+}
+
+.div6 h2 {
+    position: absolute;
+    color: var(--black);
+    font-size: 35px;    
+    font-weight: 600;
+    left: 23rem;
+    top: 4rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div6 span {
+    position: absolute;
+    top: 7.5rem;
+    left: 17rem;
+    color: var(--dark-gray);
+    font-size: 19px;
+    transform: scaleY(1); 
+    font-weight: 500;
+    transform-origin: bottom;
+    letter-spacing: -0.7px;
+    transform: scaleY(1.15); 
+    transform-origin: bottom;
+}
+
+.div6 a {
+    font-size: 16px;
+    position: absolute;
+    top: 9.8rem;
+    left: 23.5rem;
+    color: var(--blue2);
+    letter-spacing: -0.9px;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+.div6 img {
+    width: 100%;
+    height: 73%;
+    margin-top: 210px;
+    position: relative;
+}
+
+footer {
+    height: 27rem;
+    margin-top: 60px;
+    position: relative;
+}
+
+footer, 
+footer .container {
+    width: 100%;
+    display: flex;
+    background: var(--white-cool);
+    color: var(--black);
+    padding: 10px;
+    padding-right: 100px;
+    box-sizing: border-box; 
+    flex-wrap: wrap;
+    
+}
+
+footer .container {
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:  160px;
+    height: auto; 
+}
+
+
+footer .container span {
+    font-size: 12px;
+    color: var(--super-black);
+    font-weight: 500;
+    display: block;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+    
+}
+
+
+footer .container a {
+    padding-top: 14px;
+    display: block;
+    font-size: 10px;
+    color: var(--black);
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+footer .container .box span.three ,
+footer .container .box span.six {
+    padding-top: 30px;
+}
+
+footer a.f1 {
+    font-size: 11px;
+    padding-left: 365px;
+    padding-top: 13.5px;
+    color: var(--blue2);
+    text-decoration: underline;
+}
+
+footer span.f2 {
+    font-size: 11px;
+    padding-left: 5px;
+    padding-top: 13.5px;
+    color: #858585;
+}
+
+.space {
+    position: absolute;
+    width: 1000px;
+    height: 10px;
+    bottom: 1.8rem;
+    left: 23.5rem;
+    border-top: 1px solid #d5d5d6;
+}
+
+footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+    padding: 20px 0;
+    color: var(--black);
+    gap: .5rem;
+}
+
+footer .bottom .cr {
+    position: absolute;
+    top: 54px;
+    left: -130px;
+    font-size: 13px;
+    color: #7c7c7c;
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+.bottom a,
+.bottom span.span {
+    position: relative;
+    top: 27px;
+    left: 200px;
+    font-size: 10px;
+    color: var(--black);
+    transform: scaleY(1.1); 
+    transform-origin: bottom;
+}
+
+.bottom a.last {
+    left: 40rem;
+}
